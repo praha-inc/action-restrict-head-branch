@@ -49,8 +49,8 @@ importers:
         specifier: 0.2.39
         version: 0.2.39(@swc/core@1.15.33)
       '@tsconfig/node20':
-        specifier: 20.1.8
-        version: 20.1.8
+        specifier: 20.1.9
+        version: 20.1.9
       '@tsconfig/strictest':
         specifier: 2.0.8
         version: 2.0.8
@@ -569,22 +569,26 @@ packages:
 
   '@praha/eslint-config-common@3.0.6':
     resolution: {integrity: sha512-1S0EP6hi0iUYR/WRdRGXXApNaoUwmRLXGGcJP7YdoLw+5MMvZ8QPlaAMySjj7tDUagP5JoQszP7Dor76WW4nyg==}
+    deprecated: This package has been deprecated and is no longer maintained. Please use @praha/oxlint-config-standard instead.
     peerDependencies:
       eslint: ^8.0.0
 
   '@praha/eslint-config-definer@1.0.5':
     resolution: {integrity: sha512-qn5vB7G99PsYZa2TbunzHkFtx8zpJm7nvydDWft9pUiy9uU7jQNK/nW8wcXupUHPA8zIPC+qxn7gFGqLX6iF9w==}
+    deprecated: This package has been deprecated and is no longer maintained. Please use @praha/oxlint-config-standard instead.
     peerDependencies:
       eslint: ^8.0.0
 
   '@praha/eslint-config-javascript@2.0.7':
     resolution: {integrity: sha512-2ZBTd6RnfqnxodpsgzFBMSOBS+zUTg6pQMwV5ubXq42p88/SQjwciLR+zy+YLzBmOoj+qMBplJ6BExt9gEEqxA==}
+    deprecated: This package has been deprecated and is no longer maintained. Please use @praha/oxlint-config-standard instead.
     peerDependencies:
       '@praha/eslint-config-common': 3.0.6
       eslint: ^8.0.0
 
   '@praha/eslint-config-jest@3.0.8':
     resolution: {integrity: sha512-36RxgMQbF+GZABN9p3nmdBi5kxT11E+jTPOtTBG78uBIxONmxjyNquX264ByLtEC30VkJi0JL+H+aeaQw4DocQ==}
+    deprecated: This package has been deprecated and is no longer maintained. Please use @praha/oxlint-config-standard instead.
     peerDependencies:
       '@praha/eslint-config-common': 3.0.6
       '@praha/eslint-config-javascript': 2.0.7
@@ -596,6 +600,7 @@ packages:
 
   '@praha/eslint-config-style@2.0.9':
     resolution: {integrity: sha512-2o9UBP0nPiS4e/0O21pZ/+dMYs8Ejeo03It7297T2i3pO99bT8x5qTmGjNj2rvlBDpxMWY9NaRtglqdTR2xuvw==}
+    deprecated: This package has been deprecated and is no longer maintained. Please use @praha/oxlint-config-standard instead.
     peerDependencies:
       '@praha/eslint-config-common': 3.0.6
       '@praha/eslint-config-javascript': 2.0.7
@@ -607,6 +612,7 @@ packages:
 
   '@praha/eslint-config-typescript@2.0.8':
     resolution: {integrity: sha512-y5P3oyk+7QTJpGieNBxGeyEojJRqXzZD59eBN8V7hdP/CsShnPfITdatG7g8itYM6JvHxKVRVKp8kTWqt4ucvA==}
+    deprecated: This package has been deprecated and is no longer maintained. Please use @praha/oxlint-config-standard instead.
     peerDependencies:
       '@praha/eslint-config-common': 3.0.6
       '@praha/eslint-config-javascript': 2.0.7
@@ -746,8 +752,8 @@ packages:
   '@swc/types@0.1.26':
     resolution: {integrity: sha512-lyMwd7WGgG79RS7EERZV3T8wMdmPq3xwyg+1nmAM64kIhx5yl+juO2PYIHb7vTiPgPCj8LYjsNV2T5wiQHUEaw==}
 
-  '@tsconfig/node20@20.1.8':
-    resolution: {integrity: sha512-Em+IdPfByIzWRRpqWL4Z7ArLHZGxmc36BxE3jCz9nBFSm+5aLaPMZyjwu4yetvyKXeogWcxik4L1jB5JTWfw7A==}
+  '@tsconfig/node20@20.1.9':
+    resolution: {integrity: sha512-IjlTv1RsvnPtUcjTqtVsZExKVq+KQx4g5pCP5tI7rAs6Xesl2qFwSz/tPDBC4JajkL/MlezBu3gPUwqRHl+RIg==}
 
   '@tsconfig/strictest@2.0.8':
     resolution: {integrity: sha512-XnQ7vNz5HRN0r88GYf1J9JJjqtZPiHt2woGJOo2dYqyHGGcd6OLGqSlBB6p1j9mpzja6Oe5BoPqWmeDx6X9rLw==}
@@ -3824,7 +3830,7 @@ snapshots:
     dependencies:
       '@swc/counter': 0.1.3
 
-  '@tsconfig/node20@20.1.8': {}
+  '@tsconfig/node20@20.1.9': {}
 
   '@tsconfig/strictest@2.0.8': {}
 
